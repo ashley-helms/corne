@@ -2,7 +2,7 @@
 
 Tested with qmk 0.16.9
 
-## Install qmkmsys
+## Install QMK MSYS
 [webpage](https://msys.qmk.fm/)
 
 
@@ -22,5 +22,7 @@ your selected microcontroller. [You can find more info here](https://docs.qmk.fm
 For DFU boards (Elite-C V4) use
 ```
 qmk flash -kb crkbd -km ashley -bl dfu-split-left
+```
+```
 qmk flash -kb crkbd -km ashley -bl dfu-split-right
 ```
